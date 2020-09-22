@@ -1,0 +1,6 @@
+name: XMines
+author: LuciferVerma
+website: www.rayntyofficial.ml
+main: LuciferVerma\XMines\Main
+version: 1.0.0
+api: [3.0.0]
