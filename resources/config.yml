@@ -1,3 +1,11 @@
+world_name: "world"
 
-world_name: "world" //put world name here
-ore_id: [14, 15, 16, 21, 56, 73, 129, 153] //put the IDs of blocks you want players to be able to mine
+# put world name here
+
+ore_id: [14, 15, 16, 21, 56, 73, 129, 153] 
+
+#put the IDs of blocks you want players to be able to mine
+
+
+
+
