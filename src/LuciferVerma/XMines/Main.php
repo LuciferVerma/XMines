@@ -34,11 +34,11 @@ class main extends PluginBase implements Listener{
     }
     
     public function breakBlock(BlockBreakEvent $event){
-        
+        $world = $this->getConfig()->get("world_name");
         $player = $event->getPlayer();
         $block = $event->getBlock();
-        $blocks = [14, 15, 16, 21, 56, 73, 129, 153]; //put the IDs of blocks you want players to be able to mine
-        if(!in_array($block->getId(), $blocks) && $player->getLevel()->getName() === "The Mines"){
+        $blocks = $this->getConfig()->get("ore_id");
+        if(!in_array($block->getId(), $blocks) && $player->getLevel()->getName() === $world){
             $event->setCancelled(true);
         }
         
