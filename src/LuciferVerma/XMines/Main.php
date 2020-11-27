@@ -24,6 +24,9 @@ class main extends PluginBase implements Listener{
     
     public function onEnable(){
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
+        @mkdir($this->getDataFolder()):
+        $this->saveDataFolder();
+        $this->getResource("config.yml);
     }
     
     public function onDisable(){
