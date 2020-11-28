@@ -1,6 +1,6 @@
 # XMines [![](https://poggit.pmmp.io/shield.state/XMines)](https://poggit.pmmp.io/p/XMines)
 
-<a href="https://poggit.pmmp.io/p/XMines"><img src="https://poggit.pmmp.io/shield.state/XMines"></a>
+<a href="https://poggit.pmmp.io/p/XMines"><img src="https://poggit.pmmp.io/shield.state/XMines"
 A plugin to make mine. Where you can only mine ore's <br>
 ## discription: <br>
 with this plugin you can make mines. where people will be able to mine other ore and but they can't mine other things like stone, wood etc. basically they can only mine ores. <br>
