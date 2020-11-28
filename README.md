@@ -1,4 +1,4 @@
-# XMines [![](https://poggit.pmmp.io/shield.state/XMines)](https://poggit.pmmp.io/p/XMines)
+# XMines [![](https://poggit.pmmp.io/shield.state/XMines)](https://poggit.pmmp.io/ci/LuciferVerma/XMines/XMines)
 
 
 A plugin to make mine. Where you can only mine ore's <br>
