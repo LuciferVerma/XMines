@@ -42,13 +42,13 @@ class Main extends PluginBase implements Listener{
 
     public function breakBlock(BlockBreakEvent $event){
 
-        $world = $this->config->get("world_name");
+        $world = $this->getConfig()->get("world_name");
 
         $player = $event->getPlayer();
 
         $block = $event->getBlock();
 
-        $blocks = $this->config->get("ore_id");
+        $blocks = $this->getConfig()->get("ore_id");
 
         if(!in_array($block->getId(), $blocks) && $player->getLevel()->getName() === $world){
 
