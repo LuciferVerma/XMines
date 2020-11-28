@@ -26,6 +26,7 @@ use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase implements Listener{
 
+    private $config;
     public function onEnable(){
 
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
