@@ -34,7 +34,7 @@ class Main extends PluginBase implements Listener{
 
         $this->config = new Config($this->getDataFolder()."config.yml", Config::YAML);
 
-        $this->saveDefaultConfig();
+        
 
     }
 
